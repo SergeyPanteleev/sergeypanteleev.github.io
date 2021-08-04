@@ -1,0 +1,42 @@
+.container div {
+    padding: 10px;
+}
+.layer_1 {
+    display: flex;
+}
+.photo {
+    flex-basis: 30%;
+}
+.info {
+    flex-basis: 70%
+}
+.languages, .about_me {
+    flex-basis: 100%;
+}
+.phone, .name {
+    flex-basis: 50%;
+}
+img {
+    width: 300px;
+}
+.languages table {
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+.languages th, .languages td {
+    border: 1px solid grey;
+}
+.languages th:first-child {
+    width: 25%;
+}
+.languages td {
+    width: 15%;
+}
+.block {
+    display: none;
+}
+.link:hover{
+    cursor: pointer;
+}
